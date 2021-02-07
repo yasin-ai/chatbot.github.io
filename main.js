@@ -1,4 +1,8 @@
-
+function toBottom()
+{
+    window.scrollTo(0, document.body.scrollHeight);
+}
+window.onload=toBottom;
 
 var messages = [], //array that hold the record of each string in chat
   lastUserMessage = "", //keeps track of the most recent input string from the user
