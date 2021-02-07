@@ -56,7 +56,7 @@ function chatbotResponse() {
   if (lastUserMessage === 'How old are you' || lastUserMessage == "How old" || lastUserMessage == "Your age"  || lastUserMessage == "What is your age") {
     botMessage = "I am a baby little baby who is learning.";
   }
-  if (lastUserMessage === 'Narendra Modi' || lastUserMessage == "Who is Modi" || lastUserMessage == "Who is Amit Shah"  || lastUserMessage == "Who is modi" || lastUserMessage == "Who is amit shah" || lastUserMessage == "BJP" || lastUserMessage == "bjp" || lastUserMessage == "modi" || lastUserMessage == "amit shah") {
+  if (lastUserMessage === 'Narendra Modi' || lastUserMessage == "Who is Modi" || lastUserMessage == "Who is Amit Shah"  || lastUserMessage == "Who is modi" || lastUserMessage == "Bjp" || lastUserMessage == "Who is amit shah" || lastUserMessage == "BJP" || lastUserMessage == "bjp" || lastUserMessage == "modi" || lastUserMessage == "amit shah") {
     botMessage = "I dont know them and not intrested in politics but i only know Rahul Gandhi is real Prime Minister of India";
   }
   if (lastUserMessage === 'Correct' || lastUserMessage == "correct" || lastUserMessage == "right"  || lastUserMessage == "Right" || lastUserMessage == "You are right" || lastUserMessage == "Great" || lastUserMessage == "Superb" || lastUserMessage == "Superb" || lastUserMessage == "wow") {
