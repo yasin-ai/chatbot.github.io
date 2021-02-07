@@ -13,7 +13,7 @@ var messages = [], //array that hold the record of each string in chat
 
 function chatbotResponse() {
   talking = true;
-  botMessage = "I can understand I'm still learning"; //the default message
+  botMessage = "I can't understand I'm still learning"; //the default message
 
   if (lastUserMessage === 'hi' || lastUserMessage =='hello'|| lastUserMessage =='Hi'|| lastUserMessage =='Hii'|| lastUserMessage =='Hiii' || lastUserMessage =='Hello') {
     const hi = ['Hello, How may i help you?','hello']
@@ -42,7 +42,7 @@ function chatbotResponse() {
   if (lastUserMessage === 'Ejaz' || lastUserMessage == "Who is Ejaz" || lastUserMessage == "ejaz"  || lastUserMessage == "Do you know Ejaz" || lastUserMessage == "Who is ejaz" || lastUserMessage == "Do you know ejaz") {
     botMessage = "He is tech genious, future billionire, playboy, Desi girls fan and my creator friend";
   }
-  if (lastUserMessage === 'How are you' || lastUserMessage == "how are you" || lastUserMessage == "Who are you"  || lastUserMessage == "Who are you") {
+  if (lastUserMessage === 'How are you' || lastUserMessage == "how are you" || lastUserMessage == "Who are you" || lastUserMessage == "Who are you" || lastUserMessage == "Who created you" || lastUserMessage == "Who is your creator") {
     botMessage = "I am a naughty assistance made by Yasin.";
   }
   if (lastUserMessage === 'How old are you' || lastUserMessage == "How old" || lastUserMessage == "Your age"  || lastUserMessage == "What is your age") {
